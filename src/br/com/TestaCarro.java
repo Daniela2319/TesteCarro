@@ -10,6 +10,12 @@ public class TestaCarro {
         meuCarro.velocidadeAtual = 0;
         meuCarro.velocidadeMaxima = 80;
 
+       //modelo do carro
+        System.out.println("Modelo do Carro:  " + meuCarro.modelo);
+
+        //cor do carro
+        System.out.println("Cor do carro:  "  +  meuCarro.cor);
+
         //liga o carro
         meuCarro.liga();
 
@@ -17,10 +23,9 @@ public class TestaCarro {
         meuCarro.acelera(20);
         System.out.println("Velocidade atua neste momento do carro:  " + meuCarro.velocidadeAtual  +  "Km");
 
-
-        meuCarro.pegaMarcha();
-
+        meuCarro.acelera(80);
         System.out.println("Velocidade maxima do carro:  " + meuCarro.velocidadeMaxima  + "Km" );
+
 
     }
 }
