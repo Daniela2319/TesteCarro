@@ -26,6 +26,9 @@ public class TestaCarro {
         meuCarro.acelera(80);
         System.out.println("Velocidade maxima do carro:  " + meuCarro.velocidadeMaxima  + "Km" );
 
+        meuCarro.pegaMarcha();
+        System.out.println("Troca marcha na velocida: " + meuCarro.velocidadeAtual + "Km");
+
 
     }
 }
